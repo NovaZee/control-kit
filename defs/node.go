@@ -33,17 +33,17 @@ var NodeId string
 //     └── ...                         # 待扩展
 
 const (
-	app      = "/app"
+	APP      = "/app"
 	Actuator = "/actuator"
 	Nodes    = "/nodes"
 	Online   = "/online"
 	Metrics  = "/metrics"
 
 	ActuatorNodesConfigPrefix = "/actuator/nodes/config"
-	appNodesConfigPrefix      = "/app/nodes/config"
-	appNodesOnlinePrefix      = "/app/nodes/online"
-	appNodesMetricsPrefix     = "/app/nodes/metrics"
-	appNodesCustomPrefix      = "/app/nodes/custom"
+	APPNodesConfigPrefix      = "/app/nodes/config"
+	APPNodesOnlinePrefix      = "/app/nodes/online"
+	APPNodesMetricsPrefix     = "/app/nodes/metrics"
+	APPNodesCustomPrefix      = "/app/nodes/custom"
 )
 
 type Register struct {

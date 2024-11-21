@@ -1,9 +1,9 @@
 package defs
 
-var IniPath = appPath + "conf/authConfig.ini"
+var IniPath = APPPath + "conf/authConfig.ini"
 
 const (
-	appPath = "/opt/app/"
+	APPPath = "/opt/app/"
 )
 
 const (
@@ -20,15 +20,15 @@ const (
 	SectionPortKey = "port%d"
 )
 
-const KniSection = appNodesConfigPrefix + "/%s/app/kni"
-const FStackSection = appNodesConfigPrefix + "/%s/app/f-stack"
-const appSection = appNodesConfigPrefix + "/%s/app/app"
-const AuthSection = appNodesConfigPrefix + "/%s/biz%d/auth%d"
-const AuthStatsReportSection = appNodesConfigPrefix + "/%s/biz%d/auth%d_statsreport"
-const AuthFlowReportSection = appNodesConfigPrefix + "/%s/biz%d/auth%d_flowreport"
-const AuthReportLogSection = appNodesConfigPrefix + "/%s/biz%d/auth%d_reportlog"
-const AuthFlowLogSection = appNodesConfigPrefix + "/%s/biz%d/auth%d_flowlog"
-const PortSection = appNodesConfigPrefix + "/%s/ports/port%d"
+const KniSection = APPNodesConfigPrefix + "/%s/app/kni"
+const FStackSection = APPNodesConfigPrefix + "/%s/app/f-stack"
+const appSection = APPNodesConfigPrefix + "/%s/app/app"
+const AuthSection = APPNodesConfigPrefix + "/%s/biz%d/auth%d"
+const AuthStatsReportSection = APPNodesConfigPrefix + "/%s/biz%d/auth%d_statsreport"
+const AuthFlowReportSection = APPNodesConfigPrefix + "/%s/biz%d/auth%d_flowreport"
+const AuthReportLogSection = APPNodesConfigPrefix + "/%s/biz%d/auth%d_reportlog"
+const AuthFlowLogSection = APPNodesConfigPrefix + "/%s/biz%d/auth%d_flowlog"
+const PortSection = APPNodesConfigPrefix + "/%s/ports/port%d"
 
 // ETCD etc结构
 ///config
